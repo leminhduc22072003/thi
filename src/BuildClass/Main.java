@@ -6,7 +6,7 @@ public class Main {
     {
         boolean debug = false;
 
-        ComplexNumber number = new ComplexNumber(5, 2);
+        ComplexNumber number = new ComplexNumber(6, 3);
         System.out.println("Number is: " + number.toString());
 
         number.SetImaginary(-3);
@@ -15,7 +15,7 @@ public class Main {
         System.out.print("Magnitude is: ");
         System.out.println(number.GetMagnitude());
 
-        ComplexNumber number2 = new ComplexNumber(-1, 1);
+        ComplexNumber number2 = new ComplexNumber(-2, 8);
         number.Add(number2);
         System.out.print("After adding: ");
         System.out.println(number.toString());
